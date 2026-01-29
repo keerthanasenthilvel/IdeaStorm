@@ -1,0 +1,124 @@
+[
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "AddComment",
+    "RelativePath": "api/Ideas/comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IdeaStrom.Model.CommentSubmission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "Login",
+    "RelativePath": "api/Ideas/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IdeaStrom.Model.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Ideas/notifications/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "Register",
+    "RelativePath": "api/Ideas/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IdeaStrom.Model.UserRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "ReviewIdea",
+    "RelativePath": "api/Ideas/review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IdeaStrom.Model.ReviewSubmission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "SubmitIdea",
+    "RelativePath": "api/Ideas/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IdeaStrom.Controllers.IdeasController\u002BIdeaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "GetTopIdeas",
+    "RelativePath": "api/Ideas/top",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdeaStrom.Controllers.IdeasController",
+    "Method": "VoteIdea",
+    "RelativePath": "api/Ideas/vote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IdeaStrom.Model.VoteSubmission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
