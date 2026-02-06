@@ -306,3 +306,4 @@ C:\Users\2467467\source\repos\Backend\IdeaStrom\IdeaStrom\obj\Debug\net8.0\refin
 C:\Users\2467467\source\repos\Backend\IdeaStrom\IdeaStrom\obj\Debug\net8.0\IdeaStrom.pdb
 C:\Users\2467467\source\repos\Backend\IdeaStrom\IdeaStrom\obj\Debug\net8.0\IdeaStrom.genruntimeconfig.cache
 C:\Users\2467467\source\repos\Backend\IdeaStrom\IdeaStrom\obj\Debug\net8.0\ref\IdeaStrom.dll
+C:\Users\2467467\source\repos\Backend\IdeaStrom\IdeaStrom\obj\Debug\net8.0\IdeaStrom.sourcelink.json

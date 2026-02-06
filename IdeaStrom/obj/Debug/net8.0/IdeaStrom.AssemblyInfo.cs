@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdeaStrom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0a7e20539ca474239ed8f4731433c179344f393")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdeaStrom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdeaStrom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

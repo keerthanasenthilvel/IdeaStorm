@@ -121,37 +121,6 @@
         }
       }
     },
-    "/api/Ideas/review": {
-      "post": {
-        "tags": [
-          "Ideas"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReviewSubmission"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReviewSubmission"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReviewSubmission"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Ideas/top": {
       "get": {
         "tags": [
@@ -265,28 +234,6 @@
           "userID": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "ReviewSubmission": {
-        "type": "object",
-        "properties": {
-          "ideaID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "reviewerID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "feedback": {
-            "type": "string",
-            "nullable": true
-          },
-          "decision": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

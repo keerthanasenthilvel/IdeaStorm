@@ -65,22 +65,6 @@
   },
   {
     "ContainingType": "IdeaStrom.Controllers.IdeasController",
-    "Method": "ReviewIdea",
-    "RelativePath": "api/Ideas/review",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "IdeaStrom.Model.ReviewSubmission",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "IdeaStrom.Controllers.IdeasController",
     "Method": "SubmitIdea",
     "RelativePath": "api/Ideas/submit",
     "HttpMethod": "POST",
